@@ -6,8 +6,8 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}/main.go",
-            "buildFlags": "",
+            "program": "${workspaceFolder}/main.go", // Add the path to your main.go file
+            "buildFlags": "", // Add your flags here if there are any
             "envFile": "${workspaceFolder}/.env",
             "cwd": "${workspaceFolder}"
         }
